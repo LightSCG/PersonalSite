@@ -1,0 +1,26 @@
+body {
+  background-color: #FFEBC9;
+  color: #B05B3B;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#center{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  list-style-position: inside;
+}
+
+h1,h3 {
+  color: #753422;
+}
+hr{
+  border-top: dotted;
+  color: #753422;
+  width: 40%;
+}
+p.first{
+  padding-left: 500px;
+  padding-right: 500px;
+}
