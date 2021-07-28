@@ -170,7 +170,9 @@ h1{
     font-size: 2rem;
   }
   .imagez{
-    width: 60%
+    width: 60%;
+    border-radius: 0%;
+    padding-bottom: 20px;
   }
   .imagez-text{
 
@@ -179,8 +181,14 @@ h1{
     margin: auto;
   }
   .carousel-indicators{
-    position: relative;
-    top: 500px;
+    display: none;
   }
-
+  .butin1{
+    display: inline-block;
+    position: relative;
+  }
+  .butin2{
+    display: inline-block;
+    position: relative;
+  }
 }
