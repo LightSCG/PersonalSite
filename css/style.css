@@ -1,0 +1,134 @@
+/* font-family: 'Indie Flower', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Otomanopee One', sans-serif; */
+body{
+  font-family: 'Otomanopee One', sans-serif;
+}
+/* Navbar */
+#navbar{
+  background-color: black;
+  padding: 20px 340px 20px 50px;
+}
+
+.nav-item{
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding-right: 20px;
+  position: relative;
+  left: 70px;
+}
+
+/* Header section */
+#header{
+  text-align: center;
+  height: 900px;
+}
+.me{
+  position: relative;
+  left: 900px;
+  width: 60%;
+  bottom: 200px;
+}
+h1{
+  font-size: 4rem;
+  line-height: 3;
+  font-weight: bold;
+  padding-top: 100px;
+}
+.para{
+  font-size: 1.5rem;
+  position: relative;
+  top: 150px;
+  margin: 0 200px;
+}
+/* About Me section*/
+#about-me{
+  background-color: black;
+  text-align: center;
+
+  padding: 20px 20px;
+  line-height: 2;
+}
+.about-mee{
+  background-color: black;
+  border-radius: 10%;
+  color: white;
+}
+.me2{
+  padding: 40px 0;
+  width: 30%;
+}
+.texterino{
+  float: right;
+  position: relative;
+  top: 150px;
+  padding-right: 50px;
+}
+.victi{
+  width: 20%;
+}
+/* Portfolio section */
+#portfolio{
+  text-align: center;
+  background-color: white;
+  padding: 0 0px 100px 0;
+  color: black;
+}
+.f3{
+  font-size: 4rem;
+  line-height: 2.4;
+  font-weight: bold;
+  padding-top: 60px;
+}
+.imagez{
+  width: 35%;
+  border-radius: 100%;
+}
+.imagez-text{
+  font-size: 3rem;
+  padding-bottom: 30px;
+  font-family: 'Indie Flower', sans-serif;
+  font-weight: bold;
+}
+.imagez-desc{
+  font-size: 1.3rem;
+  padding-bottom: 30px;
+  margin: 0 400px;
+  font-weight: bold;
+  font-family: 'Indie Flower', cursive;
+}
+
+#footer{
+ background-color: black;
+ color: white;
+ text-align: center;
+ padding: 30px 100px;
+ line-height: 4;
+}
+.icons{
+  padding: 30px 10px;
+}
+.f2{
+  padding: 30px 0 30px;
+}
+.boom{
+  padding: 20px 0 10px;
+  font-size: .8rem;
+}
+/* Social icons */
+.fb{
+
+  color: white;
+}
+.tw{
+
+  color: white;
+}
+.li{
+
+  color: white;
+}
+.gh{
+
+  color: white;
+}

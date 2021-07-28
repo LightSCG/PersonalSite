@@ -3,78 +3,255 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Stephen's Personal Site</title>
-  <link rel="stylesheet" href="master.css">
+  <title>My Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&family=Otomanopee+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/favicon.ico">
 </head>
 
 <body>
-  <table id = "center">
-    <tr>
-      <td><img src="Thor.png" alt="stephen profile picture" width="200" height="200"></td>
-      <td>
-        <h1> Stephen Andrew Diehl </h1>
-
-        <p><em> <strong>Beginner</strong> Front-End Developer </em> </p>
-      </td>
-    </tr>
-  </table>
+  <section id="navbar">
 
 
-  <p class="first">
-    Hi welcome to my personal website! My name is Stephen Diehl and I am currently
-    working on becoming a Front-End Developer as to improve myself and actually
-    get started with a career. I have mostly worked fast food and spent my time playing
-    video games but it's high time I fixed all that and actually did something productive
-    and useful!
-  </p>
-  <hr>
-  <h3> Education </h3>
-  <ul id = "center">
-    <li id = "center">Elementary School: Flatrock</li>
-    <li id = "center">Highschool: Jopling Highschool</li>
-    <li id = "center">College: Surry Community College</li>
-  </ul>
-  <hr>
-  <h3>My Work Experience</h3>
-  <table id = "center">
-    <thea></thea>
-    <tr>
-      <th>Dates</th>
-      <th>Employer</th>
-    </tr>
-    <tbody>
-      <tr>
-        <td>2020</td>
-        <td>TTEC</td>
-      </tr>
-      <tr>
-        <td>2019</td>
-        <td>Whataburger</td>
-      </tr>
-    </tbody>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">LightSCG</a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item nav">
+            <a class="nav-link" href="#about-me">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-  </table>
+  </section>
 
-  <h3>Skills</h3>
 
-  <table id = "center">
-    <tr>
-      <td>HTML</td>
-      <td>★★★★☆</td>
-      <td>CSS</td>
-      <td>★★★☆☆</td>
-    </tr>
-    <tr>
-      <td>Javascript</td>
-      <td>★★★☆☆</td>
-      <td>Python</td>
-      <td>★★★★☆</td>
-    </tr>
-  </table>
-  <h3><a href="hobbies.html">Check out my hobbies!</a></h3>
 
-  <h3><a href="Contactme.html">Contact me</a></h3>
 
-</body>
+
+  <section id="header">
+
+
+    <div class="container-fluid">
+      <div class="rows">
+
+        <div class="col-lg-6 head">
+          <h1>Welcome</h1>
+          <p class="para"> My name is Stephen Diehl and I am a <strong>front-end web developer!</strong></p>
+        </div>
+        <div class="col-lg-6">
+          <img class="me" src="images/Thor.png" alt="me">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+
+  <section id="about-me">
+    <div class="about-mee">
+      <div class="container-fluid" <div class="row">
+
+        <div class="col-lg-6">
+
+        </div>
+        <img class="me2" src="images/Thor.png" alt="me">
+        <div class="col-lg-6 texterino">
+          <h2>About Me</h2><br>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <img class="victi" src="images/victini.gif" alt="">
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+
+  <!-- <h2 class="spacer">Click the button below for more information about me!</h2>
+  <a href="#header"><button class="btn btn-outline-dark btn-lg butt" type="button" name="About Me">About Me</button></a>
+
+  <div class="card">
+    Why hello there bitch ass
+  </div> -->
+
+
+  <section id="portfolio">
+
+
+    <h1 class="f3"><span class="star">❇</span> My Portfolio <span class="star">❇</span></h1>
+
+    <div id="portfol" class="carousel carousel-dark slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#portfol" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#portfol" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#portfol" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#portfol" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#portfol" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#portfol" data-bs-slide-to="5" aria-label="Slide 6"></button>
+
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h4 class="imagez-text">
+            Project 1
+          </h4>
+          <p class="imagez-desc">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+
+          <img class="imagez" src="images/1.jpg" class="d-block w-100" alt="...">
+
+        </div>
+        <div class="carousel-item">
+          <h4 class="imagez-text">
+            Project 2
+          </h4>
+          <p class="imagez-desc">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <img class="imagez" src="images/2.jpg" class="d-block w-100" alt="...">
+
+        </div>
+        <div class="carousel-item">
+          <h4 class="imagez-text">
+            Project 3
+          </h4>
+          <p class="imagez-desc">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <img class="imagez" src="images/3.jpg" class="d-block w-100" alt="...">
+
+        </div>
+        <div class="carousel-item">
+          <h4 class="imagez-text">
+            Project 4
+          </h4>
+          <p class="imagez-desc">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <img class="imagez" src="images/4.jpg" class="d-block w-100" alt="...">
+
+        </div>
+        <div class="carousel-item">
+          <h4 class="imagez-text">
+            Project 5
+          </h4>
+          <p class="imagez-desc">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <img class="imagez" src="images/5.jpg" class="d-block w-100" alt="...">
+
+        </div>
+        <div class="carousel-item">
+          <h4 class="imagez-text">
+            Project 6
+          </h4>
+          <p class="imagez-desc">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <img class="imagez" src="images/6.jpg" class="d-block w-100" alt="...">
+
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#portfol" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#portfol" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- <div class="container-fluid">
+
+    <div class="row">
+
+      <div class="col-lg-12">
+
+
+
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="red">
+            <img class="imagez" src="images/1.jpg" alt="rando">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="blue">
+            <img class="imagez" src="images/2.jpg" alt="rando">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="yellow">
+            <img class="imagez" src="images/3.jpg" alt="rando">
+          </div>
+        </div>
+      </div>
+      <div class="spacing">
+
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="gray">
+            <img class="imagez" src="images/4.jpg" alt="rando">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="green">
+            <img class="imagez" src="images/5.jpg" alt="rando">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="white">
+            <img class="imagez" src="images/6.jpg" alt="rando">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+
+
+
+  <section id="footer">
+    <h2 class="f2">Contact Information</h2>
+    <a class="icons" href="https://www.facebook.com/stephen.diehl2/"><i class="fab fa-facebook-square fa-5x fb"></i></a>
+    <a class="icons" href="https://twitter.com/StephenADiehl"><i class="fab fa-twitter-square fa-5x tw"></i></a>
+    <a class="icons" href="mailto: diehlstephen@yahoo.com"><i class="fas fa-envelope fa-5x gh"></i></i></a>
+    <a class="icons" href="https://www.linkedin.com/in/stephen-a-diehl/"><i class="fab fa-linkedin fa-5x li"></i></a>
+    <a class="icons" href="https://github.com/LightSCG"><i class="fab fa-github-square fa-5x gh"></i></i></a>
+
+
+    <h6 class="boom"><span>©</span>Stephen Diehl</h6>
+  </section>
+
+
+
+
+  <script src="https://kit.fontawesome.com/9c3a3936f6.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
 </html>
